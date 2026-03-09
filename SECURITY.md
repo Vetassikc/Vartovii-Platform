@@ -1,9 +1,39 @@
 # Security Policy
 
-## Reporting a Vulnerability
+## Scope
 
-Please do not report security vulnerabilities through public GitHub issues.
+This repository is the public-facing documentation and integration surface for Vartovii.
 
-If you have discovered a security vulnerability in Vartovii, please report it via email to security@vartovii.com.
+Do not publish vulnerabilities in public issues or discussions.
 
-We will acknowledge your report within 24 hours and keep you updated on the progress.
+## Reporting A Vulnerability
+
+If you believe you have found a security issue affecting Vartovii, report it privately to:
+
+- `security@vartovii.com`
+
+Please include, when possible:
+
+- affected surface or URL
+- clear reproduction steps
+- expected impact
+- logs, screenshots, or proof-of-concept details that help reproduction
+
+## Response Expectations
+
+We aim to:
+
+- acknowledge valid reports within 2 business days
+- investigate and triage based on severity
+- coordinate remediation before any public disclosure
+
+## Out Of Scope For Public Disclosure
+
+Please do not use public GitHub issues for:
+
+- vulnerabilities in private services
+- leaked credentials or access tokens
+- admin or internal route discoveries
+- cost-abuse paths or rate-limit bypass attempts
+
+Use private reporting instead.

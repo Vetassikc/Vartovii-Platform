@@ -1,119 +1,118 @@
-# 🛡️ Vartovii Platform
+# Vartovii
 
-**AI-Powered Trust Intelligence & Multi-Agent Ecosystem**
+Machine-verifiable trust decisions for Web3 risk and corporate due diligence.
 
-> Enterprise-grade risk assessment for Web3 projects and corporate intelligence. Powered by the Vartovii Agent Development Kit (ADK) and Google Gemini 2.5/3.0.
+Vartovii turns fragmented public signals into verifiable trust outputs for analysts, operators, and autonomous systems. We help teams evaluate tokens, contracts, wallets, employers, and public reputation workflows using transparent scoring, source attribution, and production-ready delivery surfaces.
 
-[![Live Platform](https://img.shields.io/badge/Platform-vartovii.com-blue?style=for-the-badge)](https://sentryanalytic.com)
-[![Documentation](https://img.shields.io/badge/Docs-docs.vartovii.com-green?style=for-the-badge)](https://docs.sentryanalytic.com)
-[![Changelog](https://img.shields.io/badge/Changelog-Updates-purple?style=for-the-badge)](https://changelog.sentryanalytic.com)
+## What This Repository Is
 
----
+This repository is the public-facing surface for Vartovii.
 
-## 📖 Welcome to Our "Build in Public" Hub
+It contains:
 
-This repository serves as the public gateway and issue tracker for the **Vartovii Platform**. While our core engine currently remains source-available to partners, this space is dedicated to our **Open Architecture** philosophy. Here we share our agent designs, public documentation, API contracts, and roadmap transparently.
+- public product positioning
+- architecture summaries
+- roadmap snapshots
+- live links to the platform, docs, and changelog
+- security and contribution guidance
 
-If you are an investor, partner, or developer, this is your starting point to understand how Vartovii works under the hood.
+It does **not** contain the private core execution engine, protected data pipelines, deployment credentials, or internal scoring infrastructure.
 
----
+## Product Overview
 
-## 🎯 Platform Overview
+Vartovii operates one trust engine across two immediate markets.
 
-Vartovii provides institutional-grade intelligence by turning fragmented public and internal signals into decision-grade trust scores across two verticals:
+### Web3 Intelligence
 
-| Module | Use Case | Trust Assessment |
-|--------|----------|-------------|
-| **Crypto Intelligence** | Web3 due diligence for funds, VCs, and retail | Stage-aware scoring (Treasury, Dev, Financials, Tokenomics, Community) with forensic analysis. |
-| **Corporate Analytics** | Employer reputation and risk intelligence | Corporate Trust Score (6-factor breakdown: Rating Quality, Sentiment, Volume, Source Diversity, Consistency, Recency). |
+Used for token, wallet, contract, and market-integrity assessment.
 
-### 🏆 Why Vartovii?
+Representative workflows:
 
-- **Multi-Agent Architecture (ADK)** — Advanced reasoning powered by 4 specialized AI agents working together (Orchestrator, Corporate, Crypto, OSINT).
-- **8+ Tier-1 Data Harvesters** — Real-time data processing from CoinGecko, DefiLlama, GitHub, Glassdoor, Reddit, Kununu, and more.
-- **Deep Research Engine** — Multi-agent collaboration generating instant, institutional-grade PDF intelligence reports.
-- **Deterministic Trust Formulas** — Transparent, math-backed scoring algorithms, moving beyond "LLM vibes" to provable calculations.
+- tokenomics and supply-structure analysis
+- smart-contract and protocol-risk review
+- wallet-behavior and treasury signal inspection
+- market anomaly and manipulation signal detection
 
----
+### Corporate Intelligence
 
-## 🧠 The Agent Ecosystem (Sentinel Swarm)
+Used for employer reputation and public-signal due diligence.
 
-Vartovii is not a wrapper; it's a sophisticated data pipeline orchestrated by the **Vartovii ADK (Agent Development Kit)**:
+Representative workflows:
 
-1. **Orchestrator Agent**: Roots user intent, handles task delegation, and synthesizes multi-agent responses.
-2. **Crypto Agent**: Specialized in on-chain tokenomics, DeFi metrics, protocol audits, and stage-aware risk bounding.
-3. **Corporate Agent**: Focuses on employer branding, Glassdoor/Kununu sentiment, and vacancy intelligence.
-4. **OSINT Agent**: Real-time web search and public signal verification.
+- employer reputation scoring
+- hiring-authenticity and vacancy review
+- compliance and public-risk signal monitoring
+- source-attributed due diligence summaries
 
-*(Future additions: KYB Compliance Agent, Code Auditor Agent)*
+## How The Trust Engine Works
 
----
+1. **Ingest**
+   - Collect public and operational signals from market, GitHub, OSINT, and reputation sources.
+2. **Validate**
+   - Cross-check evidence across specialized workflows instead of relying on a single model pass.
+3. **Verify**
+   - Produce deterministic trust scores, source-attributed findings, and API-ready decisions.
+4. **Deliver**
+   - Expose outputs through dashboards, research reports, and integration surfaces.
 
-## 🗺️ Merged Roadmap (Q2 2026)
+## Why It Exists
 
-Our development strategy uses an **Interleaving** approach: alternating Platform Hardening with Product Features to ensure we never build on an unstable foundation.
+AI can accelerate decisions, but it does not solve trust by default.
 
-### Current Parallel Tracks
-- **🔧 Platform Track:**
-  - Canonical Scoring Contracts & Unified Database Access
-  - AI Structured Output Modernization & Eval Harness Setup
-  - Unified Telemetry & API v2 Productization
-- **🚀 Product Track:**
-  - Vacancy Intelligence 2.0
-  - Deep Research PDF Agent Workflows
-  - Trust Score Alert System (Beta)
-  - Vartovii Chrome Extension Publish
+Vartovii is built to address three recurring failures in high-stakes workflows:
 
----
+- fragmented and noisy public data
+- weak verification before decisions are made
+- outputs that are readable by humans but not usable by systems
 
-## 🛠️ Technology Stack
+## Public And Private Boundary
 
-| Layer | Technologies |
-|-------|-------------|
-| **AI / NLP** | Google Vertex AI, Gemini 2.5/3.0, custom ADK, RAG |
-| **Backend** | Python 3.11+, FastAPI, Pydantic, psycopg2 |
-| **Frontend** | React 19, Vite, Tailwind CSS, Framer Motion, Recharts |
-| **Infrastructure** | Google Cloud Run, Cloud SQL (PostgreSQL), Redis |
-| **Search** | Algolia DocSearch |
+| Public in this repository | Private in the core product |
+| --- | --- |
+| product overview | core backend implementation |
+| architecture summaries | internal scrapers and protected pipelines |
+| public docs and changelog links | protected scoring infrastructure |
+| roadmap snapshots | deployment configuration and secrets |
+| issue tracking and contact info | internal operations and admin surfaces |
 
----
+## Current Live Surfaces
 
-## 🌐 Live Surfaces
+| Surface | URL | Purpose |
+| --- | --- | --- |
+| Main platform | [sentryanalytic.com](https://sentryanalytic.com) | Live Vartovii application |
+| Documentation | [docs.sentryanalytic.com](https://docs.sentryanalytic.com) | User-facing and technical documentation |
+| Changelog | [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com) | Product and release updates |
+| X | [x.com/vartovii](https://x.com/vartovii) | Public product presence |
 
-| Resource | URL |
-|-----|---------|
-| **Main Platform** | [sentryanalytic.com](https://sentryanalytic.com) |
-| **Technical Docs** | [docs.sentryanalytic.com](https://docs.sentryanalytic.com) |
-| **Product Updates** | [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com) |
+Note: brand migration from SentryAnalytic to Vartovii is in progress across public surfaces.
 
-*(Note: Domain migration to vartovii.com is in progress)*
+## Operational Posture
 
----
+Public-facing product surfaces are operated with:
 
-## 📚 Documentation (Open Architecture)
+- authenticated admin and internal routes
+- rate limiting on expensive operations
+- cost controls for high-variance data workloads
+- sanitized external error handling
+- hardened database and cache access patterns
 
-We believe in maximum transparency for our scoring algorithms. Access our full documentation:
+## Repository Guide
 
-- **[Crypto Trust Score Formula](https://docs.sentryanalytic.com/docs/crypto/trust-score)**
-- **[Corporate Trust Score Breakdown](https://docs.sentryanalytic.com/docs/corporate/trust-score)**
-- **[Platform Setup & Infrastructure](https://docs.sentryanalytic.com/docs/infrastructure)**
+- [`docs/README.md`](docs/README.md) - public documentation index
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) - high-level architecture summary
+- [`docs/ROADMAP.md`](docs/ROADMAP.md) - current public roadmap snapshot
+- [`SECURITY.md`](SECURITY.md) - vulnerability reporting policy
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) - how to contribute to this public surface
 
----
+## Contact
 
-## 📞 Contact
+- Product: [sentryanalytic.com](https://sentryanalytic.com)
+- Docs: [docs.sentryanalytic.com](https://docs.sentryanalytic.com)
+- Changelog: [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com)
+- X: [x.com/vartovii](https://x.com/vartovii)
+- Security: `security@vartovii.com`
+- Partnerships: `invest@vartovii.com`
 
-**For investment inquiries, Beta access, or partnership discussions:**
+## Disclaimer
 
-- **Email:** invest@vartovii.com
-- **Founder:** Vitalii Radionov
-
----
-
-## 🇺🇦 Made in Ukraine
-
-Built by a Ukrainian founder in Switzerland, combining European engineering precision with highly scalable AI architecture.
-
----
-
-**🛡️ Vartovii — Trust Intelligence for the Web3 and Corporate Era**
-
+Vartovii provides trust signals and decision-support outputs based on available data. It is not legal, investment, compliance, or employment advice.
