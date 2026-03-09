@@ -1,90 +1,68 @@
-# 🛡️ Vartovii
+# 🛡️ Vartovii Platform
 
-**AI-Powered Trust Intelligence Platform**
+**AI-Powered Trust Intelligence & Multi-Agent Ecosystem**
 
-> Enterprise-grade risk assessment for Web3 projects and corporate intelligence. Powered by Google Gemini 2.5 AI.
+> Enterprise-grade risk assessment for Web3 projects and corporate intelligence. Powered by the Vartovii Agent Development Kit (ADK) and Google Gemini 2.5/3.0.
 
-[![Live Platform](https://img.shields.io/badge/Platform-sentryanalytic.com-blue?style=for-the-badge)](https://sentryanalytic.com)
-[![Documentation](https://img.shields.io/badge/Docs-docs.sentryanalytic.com-green?style=for-the-badge)](https://docs.sentryanalytic.com)
+[![Live Platform](https://img.shields.io/badge/Platform-vartovii.com-blue?style=for-the-badge)](https://sentryanalytic.com)
+[![Documentation](https://img.shields.io/badge/Docs-docs.vartovii.com-green?style=for-the-badge)](https://docs.sentryanalytic.com)
 [![Changelog](https://img.shields.io/badge/Changelog-Updates-purple?style=for-the-badge)](https://changelog.sentryanalytic.com)
+
+---
+
+## 📖 Welcome to Our "Build in Public" Hub
+
+This repository serves as the public gateway and issue tracker for the **Vartovii Platform**. While our core engine currently remains source-available to partners, this space is dedicated to our **Open Architecture** philosophy. Here we share our agent designs, public documentation, API contracts, and roadmap transparently.
+
+If you are an investor, partner, or developer, this is your starting point to understand how Vartovii works under the hood.
 
 ---
 
 ## 🎯 Platform Overview
 
-Vartovii provides institutional-grade intelligence across two verticals:
+Vartovii provides institutional-grade intelligence by turning fragmented public and internal signals into decision-grade trust scores across two verticals:
 
-| Module | Use Case | Trust Score |
+| Module | Use Case | Trust Assessment |
 |--------|----------|-------------|
-| **Crypto Intelligence** | Web3 due diligence for funds & VCs | 5-pillar algorithm (Treasury, Dev, Financials, Tokenomics, Community) |
-| **Corporate Analytics** | Employer reputation for recruiters & hedge funds | Multi-source sentiment analysis |
+| **Crypto Intelligence** | Web3 due diligence for funds, VCs, and retail | Stage-aware scoring (Treasury, Dev, Financials, Tokenomics, Community) with forensic analysis. |
+| **Corporate Analytics** | Employer reputation and risk intelligence | Corporate Trust Score (6-factor breakdown: Rating Quality, Sentiment, Volume, Source Diversity, Consistency, Recency). |
 
-### 🏆 Why Sentry?
+### 🏆 Why Vartovii?
 
-- **8 Data Harvesters** — Real-time data from CoinGecko, DefiLlama, GitHub, and more
-- **Gemini 2.5 AI** — Advanced reasoning for nuanced risk assessment
-- **Battle Mode** — Head-to-head project comparison
-- **Institutional UX** — Bloomberg Terminal-inspired dark interface
-
----
-
-## 🖥️ Demo
-
-### Crypto Intelligence Dashboard
-![Crypto Dashboard](assets/crypto-dashboard.png)
-
-### Crypto Battle Mode
-![Battle Mode](assets/battle-mode.png)
-
-### Corporate Intelligence (Corporate Module)
-**AI-Generated Executive Reports**
-![AI Report](assets/ai-report.png)
-
-**Sentiment Analysis**
-![Sentiment Analysis](assets/sentiment.png)
-
-**Corporate Trust Score**
-![Corporate Overview](assets/corporate-overview.png)
-
-> 📹 **[Watch Full Demo Video](https://sentryanalytic.com/demo)**
+- **Multi-Agent Architecture (ADK)** — Advanced reasoning powered by 4 specialized AI agents working together (Orchestrator, Corporate, Crypto, OSINT).
+- **8+ Tier-1 Data Harvesters** — Real-time data processing from CoinGecko, DefiLlama, GitHub, Glassdoor, Reddit, Kununu, and more.
+- **Deep Research Engine** — Multi-agent collaboration generating instant, institutional-grade PDF intelligence reports.
+- **Deterministic Trust Formulas** — Transparent, math-backed scoring algorithms, moving beyond "LLM vibes" to provable calculations.
 
 ---
 
-## 📊 Platform Stats (January 2026)
+## 🧠 The Agent Ecosystem (Sentinel Swarm)
 
-| Metric | Value |
-|--------|-------|
-| Crypto projects tracked | **6,700+** |
-| Funding rounds indexed | **6,723** |
-| Investors in database | **9,311** |
-| Companies analyzed | **500+** |
-| AI models active | **3** (Gemini 2.5 Flash/Pro, RAG) |
+Vartovii is not a wrapper; it's a sophisticated data pipeline orchestrated by the **Vartovii ADK (Agent Development Kit)**:
+
+1. **Orchestrator Agent**: Roots user intent, handles task delegation, and synthesizes multi-agent responses.
+2. **Crypto Agent**: Specialized in on-chain tokenomics, DeFi metrics, protocol audits, and stage-aware risk bounding.
+3. **Corporate Agent**: Focuses on employer branding, Glassdoor/Kununu sentiment, and vacancy intelligence.
+4. **OSINT Agent**: Real-time web search and public signal verification.
+
+*(Future additions: KYB Compliance Agent, Code Auditor Agent)*
 
 ---
 
-## 🔒 For Investors
+## 🗺️ Merged Roadmap (Q2 2026)
 
-### Competitive Advantages
+Our development strategy uses an **Interleaving** approach: alternating Platform Hardening with Product Features to ensure we never build on an unstable foundation.
 
-1. **Unique Data Pipeline** — Proprietary 8-stage harvesting pipeline not available elsewhere
-2. **5-Pillar Trust Score** — Quantitative scoring algorithm for Web3 projects
-3. **VC Tier Classification** — Official tier ratings for 50+ venture capital firms
-4. **Multi-Language AI** — English, Ukrainian, German out of the box
-
-### Business Model
-
-- **B2B SaaS** — Monthly subscriptions for VC funds, hedge funds, recruiters
-- **API Access** — Enterprise API for programmatic access
-- **White-label** — Custom deployments for institutional clients
-
-### Roadmap Highlights
-
-- [x] Crypto Module 2.0 with vesting tracking
-- [x] DefiLlama Raises integration (6,700+ projects)
-- [x] Battle Mode for project comparison
-- [ ] LunarCrush social sentiment integration
-- [ ] Whale wallet tracking (DeBank API)
-- [ ] Mobile app (React Native)
+### Current Parallel Tracks
+- **🔧 Platform Track:**
+  - Canonical Scoring Contracts & Unified Database Access
+  - AI Structured Output Modernization & Eval Harness Setup
+  - Unified Telemetry & API v2 Productization
+- **🚀 Product Track:**
+  - Vacancy Intelligence 2.0
+  - Deep Research PDF Agent Workflows
+  - Trust Score Alert System (Beta)
+  - Vartovii Chrome Extension Publish
 
 ---
 
@@ -92,47 +70,50 @@ Vartovii provides institutional-grade intelligence across two verticals:
 
 | Layer | Technologies |
 |-------|-------------|
-| **AI** | Google Gemini 2.5 Flash/Pro, Vertex AI RAG |
-| **Backend** | FastAPI, Python 3.11, PostgreSQL 14 |
-| **Frontend** | React 18, Vite, Tailwind CSS, Framer Motion |
-| **Infrastructure** | Google Cloud Run, Cloud SQL, Redis |
+| **AI / NLP** | Google Vertex AI, Gemini 2.5/3.0, custom ADK, RAG |
+| **Backend** | Python 3.11+, FastAPI, Pydantic, psycopg2 |
+| **Frontend** | React 19, Vite, Tailwind CSS, Framer Motion, Recharts |
+| **Infrastructure** | Google Cloud Run, Cloud SQL (PostgreSQL), Redis |
 | **Search** | Algolia DocSearch |
 
 ---
 
-## 🌐 Live Sites
+## 🌐 Live Surfaces
 
-| URL | Purpose |
+| Resource | URL |
 |-----|---------|
-| [sentryanalytic.com](https://sentryanalytic.com) | Main Platform |
-| [docs.sentryanalytic.com](https://docs.sentryanalytic.com) | Technical Docs |
-| [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com) | Product Updates |
+| **Main Platform** | [sentryanalytic.com](https://sentryanalytic.com) |
+| **Technical Docs** | [docs.sentryanalytic.com](https://docs.sentryanalytic.com) |
+| **Product Updates** | [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com) |
+
+*(Note: Domain migration to vartovii.com is in progress)*
 
 ---
 
-## 📚 Documentation
+## 📚 Documentation (Open Architecture)
 
-Access our full documentation at [docs.sentryanalytic.com](https://docs.sentryanalytic.com):
+We believe in maximum transparency for our scoring algorithms. Access our full documentation:
 
-- [Crypto Trust Score Formula](https://docs.sentryanalytic.com/docs/crypto/trust-score)
-- [Data Sources & APIs](https://docs.sentryanalytic.com/docs/data-sources)
-- [API Reference](https://docs.sentryanalytic.com/docs/api/endpoints)
+- **[Crypto Trust Score Formula](https://docs.sentryanalytic.com/docs/crypto/trust-score)**
+- **[Corporate Trust Score Breakdown](https://docs.sentryanalytic.com/docs/corporate/trust-score)**
+- **[Platform Setup & Infrastructure](https://docs.sentryanalytic.com/docs/infrastructure)**
 
 ---
 
 ## 📞 Contact
 
-**For investment inquiries or partnership discussions:**
+**For investment inquiries, Beta access, or partnership discussions:**
 
-- **Email:** invest@sentryanalytic.com
+- **Email:** invest@vartovii.com
 - **Founder:** Vitalii Radionov
 
 ---
 
 ## 🇺🇦 Made in Ukraine
 
-Built by a Ukrainian founder in Switzerland, combining European quality with innovative AI.
+Built by a Ukrainian founder in Switzerland, combining European engineering precision with highly scalable AI architecture.
 
 ---
 
-**🛡️ Vartovii — Trust Intelligence for the Web3 Era**
+**🛡️ Vartovii — Trust Intelligence for the Web3 and Corporate Era**
+
