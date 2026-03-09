@@ -44,6 +44,26 @@ Representative workflows:
 - compliance and public-risk signal monitoring
 - source-attributed due diligence summaries
 
+## Product Surfaces
+
+### Web3 Workflow
+
+Real product surface for crypto intelligence, trust scoring, and source-attributed assessment.
+
+![Vartovii crypto dashboard](assets/crypto-dashboard.png)
+
+### Corporate Workflow
+
+Real product surface for employer reputation review, public-signal due diligence, and trust breakdowns.
+
+![Vartovii corporate overview](assets/corporate-overview.png)
+
+### Research Output
+
+Representative report-style delivery surface for decision support and evidence review.
+
+![Vartovii AI report](assets/ai-report.png)
+
 ## How The Trust Engine Works
 
 1. **Ingest**
@@ -100,6 +120,8 @@ Public-facing product surfaces are operated with:
 
 - [`docs/README.md`](docs/README.md) - public documentation index
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) - high-level architecture summary
+- [`docs/FAQ.md`](docs/FAQ.md) - public-repository scope and common questions
+- [`docs/INTEGRATION.md`](docs/INTEGRATION.md) - representative integration and response examples
 - [`docs/ROADMAP.md`](docs/ROADMAP.md) - current public roadmap snapshot
 - [`SECURITY.md`](SECURITY.md) - vulnerability reporting policy
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) - how to contribute to this public surface
