@@ -2,7 +2,10 @@
 
 Machine-verifiable trust decisions for Web3 risk and corporate due diligence.
 
-Vartovii turns fragmented public signals into verifiable trust outputs for analysts, operators, and autonomous systems. We help teams evaluate tokens, contracts, wallets, employers, and public reputation workflows using transparent scoring, source attribution, and production-ready delivery surfaces.
+Vartovii turns fragmented public signals into verifiable trust outputs for
+analysts, operators, and autonomous systems. We help teams evaluate tokens,
+contracts, wallets, employers, and public reputation workflows using transparent
+scoring, source attribution, and production-ready delivery surfaces.
 
 ## What This Repository Is
 
@@ -16,7 +19,8 @@ It contains:
 - live links to the platform, docs, and changelog
 - security and contribution guidance
 
-It does **not** contain the private core execution engine, protected data pipelines, deployment credentials, or internal scoring infrastructure.
+It does **not** contain the private core execution engine, protected data
+pipelines, deployment credentials, or internal scoring infrastructure.
 
 ## Product Overview
 
@@ -48,32 +52,39 @@ Representative workflows:
 
 ### Web3 Workflow
 
-Real product surface for crypto intelligence, trust scoring, and source-attributed assessment.
+Real product surface for crypto intelligence, trust scoring, and
+source-attributed assessment.
 
 ![Vartovii crypto dashboard](assets/crypto-dashboard.png)
 
 ### Corporate Workflow
 
-Real product surface for employer reputation review, public-signal due diligence, and trust breakdowns.
+Real product surface for employer reputation review, public-signal due
+diligence, and trust breakdowns.
 
 ![Vartovii corporate overview](assets/corporate-overview.png)
 
 ### Research Output
 
-Representative report-style delivery surface for decision support and evidence review.
+Representative report-style delivery surface for decision support and evidence
+review.
 
 ![Vartovii AI report](assets/ai-report.png)
 
 ## How The Trust Engine Works
 
 1. **Ingest**
-   - Collect public and operational signals from market, GitHub, OSINT, and reputation sources.
+   - Collect public and operational signals from market, GitHub, OSINT, and
+     reputation sources.
 2. **Validate**
-   - Cross-check evidence across specialized workflows instead of relying on a single model pass.
+   - Cross-check evidence across specialized workflows instead of relying on a
+     single model pass.
 3. **Verify**
-   - Produce deterministic trust scores, source-attributed findings, and API-ready decisions.
+   - Produce deterministic trust scores, source-attributed findings, and
+     API-ready decisions.
 4. **Deliver**
-   - Expose outputs through dashboards, research reports, and integration surfaces.
+   - Expose outputs through dashboards, research reports, and integration
+     surfaces.
 
 ## Why It Exists
 
@@ -87,24 +98,25 @@ Vartovii is built to address three recurring failures in high-stakes workflows:
 
 ## Public And Private Boundary
 
-| Public in this repository | Private in the core product |
-| --- | --- |
-| product overview | core backend implementation |
-| architecture summaries | internal scrapers and protected pipelines |
-| public docs and changelog links | protected scoring infrastructure |
-| roadmap snapshots | deployment configuration and secrets |
-| issue tracking and contact info | internal operations and admin surfaces |
+| Public in this repository       | Private in the core product               |
+| ------------------------------- | ----------------------------------------- |
+| product overview                | core backend implementation               |
+| architecture summaries          | internal scrapers and protected pipelines |
+| public docs and changelog links | protected scoring infrastructure          |
+| roadmap snapshots               | deployment configuration and secrets      |
+| issue tracking and contact info | internal operations and admin surfaces    |
 
 ## Current Live Surfaces
 
-| Surface | URL | Purpose |
-| --- | --- | --- |
-| Main platform | [sentryanalytic.com](https://sentryanalytic.com) | Live Vartovii application |
-| Documentation | [docs.sentryanalytic.com](https://docs.sentryanalytic.com) | User-facing and technical documentation |
-| Changelog | [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com) | Product and release updates |
-| X | [x.com/vartovii](https://x.com/vartovii) | Public product presence |
+| Surface       | URL                                                                  | Purpose                                 |
+| ------------- | -------------------------------------------------------------------- | --------------------------------------- |
+| Main platform | [sentryanalytic.com](https://sentryanalytic.com)                     | Live Vartovii application               |
+| Documentation | [docs.sentryanalytic.com](https://docs.sentryanalytic.com)           | User-facing and technical documentation |
+| Changelog     | [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com) | Product and release updates             |
+| X             | [x.com/vartovii](https://x.com/vartovii)                             | Public product presence                 |
 
-Note: brand migration from SentryAnalytic to Vartovii is in progress across public surfaces.
+Note: brand migration from SentryAnalytic to Vartovii is in progress across
+public surfaces.
 
 ## Operational Posture
 
@@ -119,22 +131,27 @@ Public-facing product surfaces are operated with:
 ## Repository Guide
 
 - [`docs/README.md`](docs/README.md) - public documentation index
-- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) - high-level architecture summary
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) - high-level architecture
+  summary
 - [`docs/FAQ.md`](docs/FAQ.md) - public-repository scope and common questions
-- [`docs/INTEGRATION.md`](docs/INTEGRATION.md) - representative integration and response examples
+- [`docs/INTEGRATION.md`](docs/INTEGRATION.md) - representative integration and
+  response examples
 - [`docs/ROADMAP.md`](docs/ROADMAP.md) - current public roadmap snapshot
 - [`SECURITY.md`](SECURITY.md) - vulnerability reporting policy
-- [`CONTRIBUTING.md`](CONTRIBUTING.md) - how to contribute to this public surface
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) - how to contribute to this public
+  surface
 
 ## Contact
 
 - Product: [sentryanalytic.com](https://sentryanalytic.com)
 - Docs: [docs.sentryanalytic.com](https://docs.sentryanalytic.com)
-- Changelog: [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com)
+- Changelog:
+  [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com)
 - X: [x.com/vartovii](https://x.com/vartovii)
-- Security: `security@vartovii.com`
-- Partnerships: `invest@vartovii.com`
+- Security: `sentry@sentryanalytic.com`
+- Partnerships: `sentry@sentryanalytic.com`
 
 ## Disclaimer
 
-Vartovii provides trust signals and decision-support outputs based on available data. It is not legal, investment, compliance, or employment advice.
+Vartovii provides trust signals and decision-support outputs based on available
+data. It is not legal, investment, compliance, or employment advice.

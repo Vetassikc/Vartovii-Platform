@@ -1,6 +1,8 @@
 ---
 name: Bug report
-about: Report a public-surface problem in documentation, links, or repository presentation
+about:
+  Report a public-surface problem in documentation, links, or repository
+  presentation
 title: "[Bug] "
 labels: bug
 assignees: ""

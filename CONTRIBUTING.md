@@ -2,7 +2,8 @@
 
 Thanks for your interest in Vartovii.
 
-This repository is the public-facing surface of the product. Contributions here are mainly useful for improving:
+This repository is the public-facing surface of the product. Contributions here
+are mainly useful for improving:
 
 - documentation clarity
 - public architecture explanations

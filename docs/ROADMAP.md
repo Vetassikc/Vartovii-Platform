@@ -32,4 +32,5 @@
 
 ## Principle
 
-Vartovii prioritizes shipping stable, reviewable improvements over broad speculative roadmap claims.
+Vartovii prioritizes shipping stable, reviewable improvements over broad
+speculative roadmap claims.

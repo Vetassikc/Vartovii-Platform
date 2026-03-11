@@ -2,7 +2,8 @@ blank_issues_enabled: false
 contact_links:
   - name: Public documentation
     url: https://docs.sentryanalytic.com
-    about: Use the live documentation site for product and documentation context.
+    about:
+      Use the live documentation site for product and documentation context.
   - name: Changelog
     url: https://changelog.sentryanalytic.com
     about: Review shipped changes and release notes before opening an issue.

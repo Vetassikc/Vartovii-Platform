@@ -1,8 +1,11 @@
 # Public Integration Notes
 
-This document describes the public-facing integration model for Vartovii at a high level.
+This document describes the public-facing integration model for Vartovii at a
+high level.
 
-It is intentionally representative rather than exhaustive. The private execution layer, internal pipelines, and protected orchestration logic are not exposed here.
+It is intentionally representative rather than exhaustive. The private execution
+layer, internal pipelines, and protected orchestration logic are not exposed
+here.
 
 ## Delivery Modes
 
@@ -63,9 +66,11 @@ Typical partner flow:
 
 - deterministic, structured outputs instead of narrative-only summaries
 - explicit evidence attribution
-- clear separation between public integration surfaces and private execution infrastructure
+- clear separation between public integration surfaces and private execution
+  infrastructure
 
 ## Notes
 
 - Scores reflect available data and configured methodology at evaluation time.
-- Outputs support decision workflows but do not replace legal, compliance, investment, or employment review.
+- Outputs support decision workflows but do not replace legal, compliance,
+  investment, or employment review.

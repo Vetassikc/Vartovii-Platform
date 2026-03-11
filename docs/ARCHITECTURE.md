@@ -2,14 +2,18 @@
 
 ## Core Idea
 
-Vartovii converts fragmented public signals into machine-verifiable trust decisions.
+Vartovii converts fragmented public signals into machine-verifiable trust
+decisions.
 
-The product is designed for workflows where teams need more than narrative summaries. Outputs must be explainable, source-attributed, and usable by systems.
+The product is designed for workflows where teams need more than narrative
+summaries. Outputs must be explainable, source-attributed, and usable by
+systems.
 
 ## Trust Engine Flow
 
 1. **Ingest**
-   - Pull public and operational signals from market, reputation, GitHub, and OSINT sources.
+   - Pull public and operational signals from market, reputation, GitHub, and
+     OSINT sources.
 2. **Normalize**
    - Standardize inputs into a common trust-evaluation pipeline.
 3. **Validate**
@@ -59,8 +63,10 @@ Primary use cases:
 
 - main platform at [sentryanalytic.com](https://sentryanalytic.com)
 - documentation at [docs.sentryanalytic.com](https://docs.sentryanalytic.com)
-- changelog at [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com)
+- changelog at
+  [changelog.sentryanalytic.com](https://changelog.sentryanalytic.com)
 
 ## Notes
 
-This document is intentionally high-level. It describes the public system shape, not the private implementation details.
+This document is intentionally high-level. It describes the public system shape,
+not the private implementation details.

@@ -2,15 +2,17 @@
 
 ## Scope
 
-This repository is the public-facing documentation and integration surface for Vartovii.
+This repository is the public-facing documentation and integration surface for
+Vartovii.
 
 Do not publish vulnerabilities in public issues or discussions.
 
 ## Reporting A Vulnerability
 
-If you believe you have found a security issue affecting Vartovii, report it privately to:
+If you believe you have found a security issue affecting Vartovii, report it
+privately to:
 
-- `security@vartovii.com`
+- `sentry@sentryanalytic.com`
 
 Please include, when possible:
 
